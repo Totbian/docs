@@ -1,6 +1,6 @@
 ---
 title: Fonts
-description: 'This section describes all the different text sizes used across Molin components.'
+description: "This section describes all the different text sizes used across Molin components."
 ---
 
 # All Fonts
@@ -8,6 +8,7 @@ description: 'This section describes all the different text sizes used across Mo
 We use two main fonts across the Molin UI components:
 
 1. **Work Sans**:
+
    - Regular
    - Italic
    - Bold
@@ -16,8 +17,6 @@ We use two main fonts across the Molin UI components:
    - Regular
    - Italic
    - Bold
-
-
 
 # All Weights
 
@@ -28,8 +27,6 @@ We apply different font weights to enhance readability and aesthetic appeal:
 - **font-medium** (500): Slightly emphasized text for headings.
 - **font-semibold** (600): Used for section headers or important labels.
 - **font-bold** (700): Used for titles and important calls to action.
-
-
 
 # All Sizes
 
@@ -48,3 +45,26 @@ We utilize various text sizes for different UI components from Tailwind. Here's 
   - Secondary hero text-6xl
   - Main hero text-[84px]
 
+# Landing page font sizes
+
+We separate the main home page from the secondary pages as the main home page has bigger font sizes than the secondary pages.
+
+## Home page sizes
+
+- Main hero: text-[52px] sm:text-[84px]
+
+```html
+text-[52px] sm:text-[84px] lg:leading-tight tracking-3 font-display leading-snug font-bold text-black
+```
+
+- H1: text-3xl sm:text-5xl
+
+```html
+text-3xl leading-normal lg:text-5xl tracking-tight font-bold font-display text-black mb-5 sm:mb-6
+```
+
+- H1 Subtext: text-base, sm:text-lg (16px, sm:18px)
+
+```html
+font-normal font-sans text-gray-500 sm:text-lg text-base
+```
