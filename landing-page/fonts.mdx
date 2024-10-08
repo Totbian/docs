@@ -45,11 +45,9 @@ We utilize various text sizes for different UI components from Tailwind. Here's 
   - Secondary hero text-6xl
   - Main hero text-[84px]
 
-# Landing page font sizes
+# Landing page font classes
 
-We separate the main home page from the secondary pages as the main home page has bigger font sizes than the secondary pages.
-
-## Home page sizes
+## Home page fonts
 
 - Main hero: text-[52px] sm:text-[84px]
 
@@ -57,14 +55,26 @@ We separate the main home page from the secondary pages as the main home page ha
 text-[52px] sm:text-[84px] lg:leading-tight tracking-3 font-display leading-snug font-bold text-black
 ```
 
-- H1: text-3xl sm:text-5xl
+- H1: text-4xl sm:text-5xl
 
 ```html
-text-3xl leading-normal lg:text-5xl tracking-tight font-bold font-display text-black mb-5 sm:mb-6
+text-4xl lg:text-5xl leading-normal tracking-tight font-bold font-display text-black
 ```
 
-- H1 Subtext: text-base, sm:text-lg (16px, sm:18px)
+- H2: text-3xl sm:text-4xl
 
 ```html
-font-normal font-sans text-gray-500 sm:text-lg text-base
+text-3xl lg:text-5xl leading-normal tracking-tight font-bold font-display text-black
+```
+
+- H3: text-base sm:text-lg
+
+```html
+text-base sm:text-lg font-sans font-semibold text-gray-800 tracking-tight
+```
+
+- Header subtext / paragraph: text-base, sm:text-lg
+
+```html
+text-base sm:text-lg font-sans text-gray-500
 ```
