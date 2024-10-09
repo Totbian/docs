@@ -55,16 +55,17 @@ We utilize various text sizes for different UI components from Tailwind. Here's 
 text-[52px] sm:text-[84px] lg:leading-tight tracking-3 font-display leading-snug font-bold text-black
 ```
 
-- H1: text-4xl sm:text-5xl
+- H1: text-4xl sm:text-5x
 
 ```html
-text-4xl lg:text-5xl leading-normal tracking-tight font-bold font-display text-black
+text-4xl lg:text-5xl leading-snug sm:leading-normal tracking-tight font-bold font-display text-black
 ```
 
 - H2: text-3xl sm:text-4xl
+  It can be either bold or semibold.
 
 ```html
-text-3xl lg:text-5xl leading-normal tracking-tight font-bold font-display text-black
+text-3xl lg:text-4xl leading-normal tracking-tight font-semibold font-display text-black
 ```
 
 - H3: text-base sm:text-lg
@@ -74,6 +75,7 @@ text-base sm:text-lg font-sans font-semibold text-gray-800 tracking-tight
 ```
 
 - Header subtext / paragraph: text-base, sm:text-lg
+  on dark bg: text-[#9098A0]
 
 ```html
 text-base sm:text-lg font-sans text-gray-500
